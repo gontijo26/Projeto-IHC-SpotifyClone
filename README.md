@@ -1,3 +1,5 @@
+Um projeto que é uma réplica da página inicial do Spotify, construído usando HTML, CSS e JavaScript. O objetivo do projeto é imitar o layout, o design e alguns recursos interativos da página inicial do Spotify. Ele envolve a estruturação do conteúdo com HTML, a estilização com CSS para corresponder ao design original e o uso de JavaScript para adicionar elementos dinâmicos e interações, como botões e efeitos de foco.
+   
 Projeto Final – Interface Humano-Computador (IHC) 2025_2
 1. Identificação do Projeto
  Nome do Projeto:

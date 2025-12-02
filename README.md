@@ -73,14 +73,15 @@ HTML, CSS, JavaScript
 Design Responsivo:
 Sim
 Link do Protótipo Funcional:
-http://localhost:5500/index.html (ou link externo caso hospedem)
+Abrir pelo index na pasta do projeto, no final desse doc deixei uma maneira de ligar o servidor e conseguir
+acessar a busca de artistas pela barra de pesquisa!!
 Principais Funcionalidades Implementadas:
 Busca dinâmica de artistas com integração ao JSON Server
 Renderização de cards de artistas com imagem e informações
 Exibição condicional de playlists e resultados
 Interface inspirada no padrão visual do Spotify
 
-7. Integração e Testes
+8. Integração e Testes
 Integração HTML/CSS/JS:
 A estrutura do projeto foi organizada em três camadas:
 HTML: estrutura base da interface
@@ -104,7 +105,7 @@ Inclusão de alt nas imagens
 Correções de contraste
 Melhoria da navegação por teclado
 
-8. Documentação Final
+9. Documentação Final
 Resumo das Decisões de Design:
 Optamos por um layout inspirado no Spotify pela familiaridade do modelo, priorizando uma navegação fluida e visual moderno. A paleta escura favorece contraste e destaca elementos principais. A busca foi definida como elemento central da experiência.
 Dificuldades Encontradas e Soluções:

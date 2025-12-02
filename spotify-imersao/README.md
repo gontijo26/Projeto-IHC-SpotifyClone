@@ -1,1 +1,3 @@
-I created a project that is a replica of the main page of Spotify, built using HTML, CSS, and JavaScript. The project aims to mimic the layout, design, and some interactive features of Spotify’s homepage. It involves structuring the content with HTML, styling it with CSS to match the original design, and using JavaScript to add dynamic elements and interactions, such as buttons and hover effects.
+We created a project that is a replica of the main page of Spotify, built using HTML, CSS, and JavaScript. The project aims to mimic the layout, design, and some interactive features of Spotify’s homepage. It involves structuring the content with HTML, styling it with CSS to match the original design, and using JavaScript to add dynamic elements and interactions, such as buttons and hover effects.
+
+json-server --watch ./api-artists/artists.json --port 3000

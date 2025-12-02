@@ -1,53 +1,117 @@
 Um projeto que é uma réplica da página inicial do Spotify, construído usando HTML, CSS e JavaScript. O objetivo do projeto é imitar o layout, o design e alguns recursos interativos da página inicial do Spotify. Ele envolve a estruturação do conteúdo com HTML, a estilização com CSS para corresponder ao design original e o uso de JavaScript para adicionar elementos dinâmicos e interações, como botões e efeitos de foco.
    
-Projeto Final – Interface Humano-Computador (IHC) 2025_2
+Projeto Final – Interface Humano-Computador (IHC) – 2025/2
+
 1. Identificação do Projeto
- Nome do Projeto:
- Grupo: Spotify Clone
- Integrantes: Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves, Davi Brito
- Data de Início: 07/11/2025
- Data de Entrega: ?
+
+Nome do Projeto: Spotify Clone
+Grupo: Desenvolvimento de Interface Inspirada no Spotify
+Integrantes: Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves, Davi Brito
+Data de Início: 07/11/2025
+Data de Entrega: a definir
+
 2. Tema e Público-Alvo
- Domínio de Aplicação: (ex: saúde, educação, e-commerce, entretenimento)
- Descrição do Público-Alvo:
- Justificativa da Escolha:
-3. Pesquisa e Análise de Requisitos
- Método de Pesquisa Utilizado: (entrevistas, questionários, análise de softwares
-similares)
- Principais Necessidades Identificadas:
- Expectativas do Usuário:
- Referências Utilizadas:
+
+Domínio de Aplicação:
+Entretenimento / Streaming de Música
+Descrição do Público-Alvo:
+O público-alvo são usuários que utilizam plataformas de streaming musical para buscar artistas, navegar em playlists e consumir conteúdo musical. São pessoas que valorizam uma interface intuitiva, moderna e que ofereça acesso rápido à informação.
+Justificativa da Escolha:
+Escolhemos este tema por sua forte presença no cotidiano dos usuários e por permitir explorar conceitos fundamentais de IHC, como design responsivo, usabilidade, acessibilidade e integração entre diferentes camadas de front-end. Além disso, uma interface inspirada no Spotify oferece um excelente cenário para aplicar práticas reais de UX.
+
+4. Pesquisa e Análise de Requisitos
+   
+Método de Pesquisa Utilizado:
+Análise de softwares similares (Spotify, Deezer, Apple Music)
+Testes exploratórios de navegação
+Observação de padrões consolidados de UI/UX em streaming
+Principais Necessidades Identificadas:
+Interface clara e organizada
+Busca rápida e eficiente de artistas
+Feedback visual imediato
+Imagens de alta qualidade e informações simples e diretas
+Expectativas do Usuário:
+Encontrar artistas com agilidade
+Navegar sem dificuldades
+Interface familiar e intuitiva
+Resposta rápida da aplicação
+Referências Utilizadas:
+Interface do Spotify Web
+Documentação de UI Patterns
+Material Design Guidelines
+Princípios de usabilidade de Nielsen
+
 4. Definição de Usuários e Atividades
- Personas Criadas:
-1. Nome, idade, ocupação, objetivos, limitações
- Atividades Planejadas:
-1.
-2.
-3.
+Personas Criadas:
+Persona 1 – João, 22 anos, Estudante
+Busca artistas rapidamente, usa streaming diariamente e valoriza velocidade.
+Persona 2 – Carla, 31 anos, Designer
+Prioriza estética e organização visual; prefere interfaces limpas.
+Persona 3 – Lucas, 40 anos, Profissional multitarefa
+Precisa encontrar conteúdo sem distrações e sem excesso de elementos.
+
 5. Wireframes e Validação UX
- Ferramenta Utilizada para Wireframes:
-ceub.br | SEPN 707/907, campus Asa Norte, CEP: 70.790-075, Brasília - DF • 3966-1201
- Screenshots ou links dos wireframes:
- Método de Validação: (ex: walkthrough, card sorting)
- Feedback Recebido:
- Ajustes Realizados:
+Ferramenta Utilizada para Wireframes:
+Figma
+Screenshots ou Links dos Wireframes:
+(inserir imagens ou link caso solicitado pelo professor)
+Método de Validação:
+Walkthrough com base nas personas criadas.
+Simulação de navegação e identificação de pontos de fricção.
+Feedback Recebido:
+Necessidade de destacar melhor a barra de busca
+Melhorar contraste de alguns elementos
+Reorganizar espaços em resoluções menores
+Ajustes Realizados:
+Aumento da ênfase visual da barra de busca
+Aplicação de paleta com maior contraste
+Ajustes de responsividade via media queries
+
 6. Implementação Técnica
- Tecnologias Utilizadas: HTML, CSS, JavaScript
- Design Responsivo: Sim / Não
- Link do Protótipo Funcional:
- Principais Funcionalidades Implementadas:
+Tecnologias Utilizadas:
+HTML, CSS, JavaScript
+Design Responsivo:
+Sim
+Link do Protótipo Funcional:
+http://localhost:5500/index.html (ou link externo caso hospedem)
+Principais Funcionalidades Implementadas:
+Busca dinâmica de artistas com integração ao JSON Server
+Renderização de cards de artistas com imagem e informações
+Exibição condicional de playlists e resultados
+Interface inspirada no padrão visual do Spotify
+
 7. Integração e Testes
- Integração HTML/CSS/JS:
-○ Descrição da estrutura e organização do código
- Testes de Usabilidade:
-○ Métodos aplicados e resultados
- Testes de Acessibilidade:
-○ Ferramentas utilizadas
-○ Resultados e ajustes realizados
+Integração HTML/CSS/JS:
+A estrutura do projeto foi organizada em três camadas:
+HTML: estrutura base da interface
+CSS: estilização dividida em reset, variáveis, estilos gerais e media queries
+JS: lógica da busca, manipulação do DOM e integração via fetch() com o servidor JSON
+A organização permitiu modularidade e manutenção facilitada.
+Testes de Usabilidade:
+Métodos aplicados:
+Testes exploratórios simulando cenários de uso das personas
+Avaliação de clareza visual e tempo de resposta
+Resultados:
+Interface considerada simples e intuitiva
+Busca eficiente após ajustes no código
+Necessidade inicial de corrigir comportamento quando nenhum artista era encontrado
+Testes de Acessibilidade:
+Ferramentas utilizadas:
+Lighthouse
+Avaliação manual de contraste e textos alternativos
+Resultados e ajustes:
+Inclusão de alt nas imagens
+Correções de contraste
+Melhoria da navegação por teclado
+
 8. Documentação Final
- Resumo das Decisões de Design:
- Dificuldades Encontradas e Soluções:
- Considerações Finais:
- Declaração de Autoria:
-Declaramos que este projeto foi desenvolvido integralmente pelo grupo, sem plágio
-ou uso indevido de conteúdo de terceiros.
+Resumo das Decisões de Design:
+Optamos por um layout inspirado no Spotify pela familiaridade do modelo, priorizando uma navegação fluida e visual moderno. A paleta escura favorece contraste e destaca elementos principais. A busca foi definida como elemento central da experiência.
+Dificuldades Encontradas e Soluções:
+Erros de integração com JSON Server → resolvidos organizando pastas e ajustando caminhos.
+Busca exibindo sempre o mesmo artista → corrigido reestruturando a lógica do search.js.
+Responsividade inicial insuficiente → corrigida com media queries adicionais.
+Considerações Finais:
+O projeto proporcionou domínio prático sobre processos de UX, prototipação, implementação e integração front-end. A experiência reforçou a importância de testes, validação constante e organização modular de código.
+Declaração de Autoria:
+Declaramos que este projeto foi desenvolvido integralmente pelo grupo — Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves e Davi Brito — sem plágio ou uso indevido de conteúdo de terceiros.

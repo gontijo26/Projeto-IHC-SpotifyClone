@@ -4,7 +4,7 @@ Projeto Final – Interface Humano-Computador (IHC) – 2025/2
 1. Identificação do Projeto
 Nome do Projeto: Spotify Clone
 Grupo: Desenvolvimento de Interface Inspirada no Spotify
-Integrantes: Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves, Davi Brito
+Integrantes: Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves, Davi Brito, Nathan Gerken
 Data de Início: 07/11/2025
 Data de Entrega: a definir
 ________________________________________

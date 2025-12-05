@@ -50,8 +50,21 @@ ________________________________________
 Ferramenta Utilizada para Wireframes:
 Figma
 Screenshots ou Links dos Wireframes:
-(inserir imagens ou link caso solicitado pelo professor)
-Método de Validação:
+Desktop — Home
+--------------------------------------------------------------
+| NAV LATERAL (fixa) | CONTEÚDO PRINCIPAL |
+| ----------------------------- | --------------------------- |
+| • Logo | [ Header ] |
+| • Início | -------------------------- |
+| • Buscar | [ Barra de busca — 32px ] |
+| • Sua Biblioteca | -------------------------- |
+| | |
+| • Playlists | Seção: "Destaques" |
+| - Chill Mix | ------------------------ |
+| - Treinos | | Card | Card | Card | |
+| - Recentes | ------------------------ |
+| | |
+--------------------------------------------------------------
 Walkthrough com base nas personas criadas.
 Simulação de navegação e identificação de pontos de fricção.
 Feedback Recebido:

@@ -153,3 +153,12 @@ No index.html, clicar com o botão direito e escolher:
 Open with Live Server
 O site vai abrir em:
 http://localhost:5500
+
+lista de artistas:
+Foo Fighters
+Michael Jackson
+Emicida
+Chitãozinho e Xororó
+MC Coringa
+Arlindo Cruz
+Caetano Veloso

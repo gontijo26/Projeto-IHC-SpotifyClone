@@ -122,7 +122,7 @@ Dificuldades Encontradas e Soluções:
 Considerações Finais:
 O projeto proporcionou domínio prático sobre processos de UX, prototipação, implementação e integração front-end. A experiência reforçou a importância de testes, validação constante e organização modular de código.
 Declaração de Autoria:
-Declaramos que este projeto foi desenvolvido integralmente pelo grupo — Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves e Davi Brito — sem plágio ou uso indevido de conteúdo de terceiros.
+Declaramos que este projeto foi desenvolvido integralmente pelo grupo — Bernardo Gontijo, Guilherme Castro, Gabriel Gonçalves, Davi Brito e Nathan Gerken — sem plágio ou uso indevido de conteúdo de terceiros.
 
 Como abrir o projeto no seu computador 
 Professora,

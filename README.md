@@ -96,7 +96,6 @@ A estrutura do projeto foi organizada em três camadas:
 •	CSS: estilização dividida em reset, variáveis, estilos gerais e media queries
 •	JS: lógica da busca, manipulação do DOM e integração via fetch() com o servidor JSON
 A organização permitiu modularidade e manutenção facilitada.
-Testes de Usabilidade:
 Métodos aplicados:
 •	Testes exploratórios simulando cenários de uso das personas
 •	Avaliação de clareza visual e tempo de resposta

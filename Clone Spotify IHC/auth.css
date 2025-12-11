@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.auth-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #000000 0%, #121212 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 24px;
+}
+
+/* Logo do Spotify */
+.auth-icon {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.auth-logo {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.auth-logo svg {
+  width: 48px;
+  height: 48px;
+  fill: #fff;
+}
+
+/* Título principal */
+.auth-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  letter-spacing: -0.04em;
+}
+
+/* Formulário */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.auth-label {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #fff;
+}
+
+.auth-input {
+  padding: 14px 16px;
+  border-radius: 4px;
+  border: 1px solid #727272;
+  background-color: #121212;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.auth-input:hover {
+  border-color: #fff;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.auth-input::placeholder {
+  color: #6a6a6a;
+}
+
+/* Botões */
+.auth-btn {
+  padding: 14px 32px;
+  border-radius: 500px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.auth-btn-primary {
+  background-color: #1ed760;
+  color: #000;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.auth-btn-primary:hover {
+  transform: scale(1.04);
+  background-color: #1fdf64;
+}
+
+/* Divisor "ou" */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 32px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #292929;
+}
+
+.auth-divider span {
+  padding: 0 16px;
+  font-weight: 400;
+}
+
+/* Botões sociais */
+.auth-social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.auth-btn-social {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #727272;
+  padding: 12px 32px;
+  border-radius: 500px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.auth-btn-social:hover {
+  border-color: #fff;
+  transform: scale(1.02);
+}
+
+.auth-btn-social svg,
+.auth-btn-social img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+}
+
+/* Ícones dos botões sociais */
+.icon-phone {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-google {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-facebook {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-apple {
+  width: 24px;
+  height: 24px;
+}
+
+/* Texto pequeno */
+.auth-text-small {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #a7a7a7;
+  padding-bottom: 48px;
+}
+
+.auth-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.auth-link:hover {
+  color: #1ed760;
+}
+
+/* Mensagens de erro/sucesso */
+.auth-message {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.auth-message.error {
+  background-color: rgba(230, 77, 77, 0.1);
+  color: #e64d4d;
+  border: 1px solid #e64d4d;
+}
+
+.auth-message.success {
+  background-color: rgba(30, 215, 96, 0.1);
+  color: #1ed760;
+  border: 1px solid #1ed760;
+}
+
+/* Checkbox de lembrar */
+.auth-remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.auth-remember input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.auth-remember label {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Link de esqueceu a senha */
+.auth-forgot {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.auth-forgot a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.auth-forgot a:hover {
+  color: #1ed760;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .auth-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .auth-container {
+    padding: 16px;
+  }
+
+  .auth-btn-social {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+}
+
+/* Correção para o card de artista que pode estar sendo injetado */
+.grid-container {
+  display: none !important;
+}
+
+/* Correção agressiva para o card de artista que insiste em aparecer */
+#result-artist {
+  display: none !important;
+}

@@ -1,0 +1,23 @@
+{
+  "users": [],
+  "artists": [
+    { "id": 1, "name": "Foo Fighters", "genre": "Rock", "trackName": "Everlong", "urlImg": "src/assets/artists/foofighters.png" },
+    { "id": 2, "name": "Michael Jackson", "genre": "Pop", "trackName": "Billie Jean", "urlImg": "src/assets/artists/michaeljackson.png" },
+    { "id": 3, "name": "Emicida", "genre": "Hip Hop", "trackName": "Passarinhos", "urlImg": "src/assets/artists/emicida.png" },
+    { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "trackName": "Evidências", "urlImg": "src/assets/artists/chitaozinho_xororo.png" },
+    { "id": 5, "name": "Mc Coringa", "genre": "Funk", "trackName": "O Coringa", "urlImg": "src/assets/artists/mccoringa.png" },
+    { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "trackName": "O Show Tem Que Continuar", "urlImg": "src/assets/artists/arlindocruz.png" },
+    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "trackName": "Sampa", "urlImg": "src/assets/artists/caetanoveloso.png" },
+    { "id": 8, "name": "Anitta", "genre": "Pop", "trackName": "Envolver", "urlImg": "src/assets/artists/anitta.png" },
+    { "id": 9, "name": "Marília Mendonça", "genre": "Sertanejo", "trackName": "Infiel", "urlImg": "src/assets/artists/mariliamendonca.png" },
+    { "id": 10, "name": "Racionais MC's", "genre": "Hip Hop", "trackName": "Vida Loka, Pt. 1", "urlImg": "src/assets/artists/racionais.png" },
+    { "id": 11, "name": "Jorge Ben Jor", "genre": "MPB", "trackName": "Mas Que Nada", "urlImg": "src/assets/artists/jorgebenjor.png" },
+    { "id": 12, "name": "Daft Punk", "genre": "Electronic", "trackName": "Get Lucky", "urlImg": "src/assets/artists/daftpunk.png" },
+    { "id": 13, "name": "Queen", "genre": "Rock", "trackName": "Bohemian Rhapsody", "urlImg": "src/assets/artists/queen.png" },
+    { "id": 14, "name": "Madonna", "genre": "Pop", "trackName": "Like a Prayer", "urlImg": "src/assets/artists/madonna.png" },
+    { "id": 15, "name": "Gusttavo Lima", "genre": "Sertanejo", "trackName": "Apelido Carinhoso", "urlImg": "src/assets/artists/gusttavo_lima.png" },
+    { "id": 16, "name": "Zeca Pagodinho", "genre": "Samba", "trackName": "Deixa a Vida Me Levar", "urlImg": "src/assets/artists/zecapagodinho.png" },
+    { "id": 17, "name": "Gilberto Gil", "genre": "MPB", "trackName": "Aquele Abraço", "urlImg": "src/assets/artists/gilbertogil.png" },
+    { "id": 18, "name": "Avicii", "genre": "Electronic", "trackName": "Wake Me Up", "urlImg": "src/assets/artists/avicii.png" }
+  ]
+}
